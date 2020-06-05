@@ -1,55 +1,87 @@
-*{
-padding:0px;
-margin:0px;
-border:0px;
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
 }
 
-.logo-img{
-    
-    margin-left:0px;
+.logo-img {
+  margin-left: 0px;
 }
-.logo-txt{
-    margin-left: 0px;
+.logo-txt {
+  margin-left: 0px;
 }
-.wrapper{
-    background: #db0000;
-    color: #fff;
+.wrapper {
+  background: #db0000;
+  color: #fff;
 }
-.navbar .navbar-nav{
-    margin: 0 auto;
-}
-
-.nav-txt{
-    color:#fff !important;
-   font-family: 'Exo', sans-serif;
-}
-.nav-txt1{
-    color:#fff !important;
-   font-family: 'Exo', sans-serif;
+.navbar .navbar-nav {
+  margin: 0 auto;
 }
 
-.nav-txt:hover{
-    background-color: #000;
-    color: #fff;
+.nav-txt {
+  color: #fff !important;
+  font-family: "Exo", sans-serif;
 }
-.ser-img{
-transition: all .2s ease-in-out;
-    margin-bottom: 30px;
-}
-.ser-img:hover{
- transform: scale(1.1);
-    box-shadow: 3px 0px 22px -1px ;
-}
-.ft-txt{
-    text-decoration: none;
-    color: #fff;
-}
-.ft-txt:hover{
-        text-decoration: none;
-    background-color: #fff;
-    color: #000;
+.nav-txt1 {
+  color: #fff !important;
+  font-family: "Exo", sans-serif;
 }
 
+.nav-txt:hover {
+  background-color: #000;
+  color: #fff;
+}
+.ser-img {
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 30px;
+}
+.ser-img:hover {
+  transform: scale(1.1);
+  box-shadow: 3px 0px 22px -1px;
+}
+.ft-txt {
+  text-decoration: none;
+  color: #fff;
+}
+.ft-txt:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+}
 
+.jdsc-gallery-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
 
+.jdsc-gallery-image > span {
+  font-size: 25px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.jdsc-gallery-button {
+  padding: 5px 10px;
+  font-size: 25px;
+  border-radius: 10px;
+  background: #9a0000;
+  animation: jdsc-gallery-button 4s infinite;
+}
+
+.jdsc-gallery-image > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@keyframes jdsc-gallery-button {
+  from {
+    background-color: #b90000;
+  }
+  to {
+    background-color: rgb(255, 196, 0);
+  }
+}
 /*------------------------------------------------------------------------------*/
